@@ -1,0 +1,14 @@
+@charset "UTF-8";
+:root{
+    --cor0: #CCE9D7;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Bebas Neue', sans-serif;
+    --font2: 'android'
+    --font3: 'titulo do main'
+}
