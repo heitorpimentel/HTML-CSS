@@ -17,9 +17,9 @@
     --font3: 'Sriracha', cursive;
 }
 
-body{
+html, body{
     min-height: 100vn;
-    background-color: black;
+    background-color: darkgray;
     font-family: var(--font1);
     margin: 0px;
 }
@@ -30,30 +30,27 @@ header{
     text-align: center;
 }
 
-header p{
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
     font-family: var(--font1);
     color: white;
 }
 
-header a{
-    text-decoration: none;
+header a, footer a{
     color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
-}
-
-header > h1{
-    padding-top: 50px;
-    font-variant: small-caps;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-variant-caps: small-caps;
-    font-variant-alternates: normal;
-    font-family: var(--font2);
-    font-size: 10vw;
 }
 
 section.normal{
@@ -63,14 +60,6 @@ section.normal{
 
 section > p{
     padding-bottom: 2em;
-}
-
-p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 section{
@@ -98,7 +87,7 @@ section.imagem > p{
 }
 
 #img01{
-    background-image: url('imagens/joaninha.jpg');
+    background-image: url('../imagens/joaninha.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +95,7 @@ section.imagem > p{
 }
 
 #img02{
-    background-image: url('imagens/folhas.png');
+    background-image: url('../imagens/folhas.png');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,10 +108,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
 }
 
